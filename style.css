@@ -1,0 +1,66 @@
+ body {
+    background-color: #e8cfcf;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+  }
+  main {
+    display: flex;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 204, 169);
+    align-items: center;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  .info > div {
+    display: flex;
+    opacity: 1;
+    z-index: 2;
+    gap: 10px;
+    color: rgb(3, 68, 3);
+  }
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #999;
+    color: #fff;
+    padding: 16px;
+  }
+  .summary {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+  }
+  .ingredients {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+    background-color: #d5d5d5;
+    margin-bottom: 20px;
+  }
