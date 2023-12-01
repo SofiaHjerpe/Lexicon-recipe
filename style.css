@@ -31,7 +31,6 @@
     background-color: rgb(169, 204, 169);
     align-items: center;
     opacity: 0.8;
-    z-index: -1;
   }
   .info > div {
     display: flex;
